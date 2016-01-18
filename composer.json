@@ -23,8 +23,14 @@
 		"wiki":           "http://patternlab.io/docs/",
 		"source":         "https://github.com/pattern-lab/styleguidekit-assets-default/releases"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/aleksip/patternlab-php-core"
+		}
+	],
 	"require": {
-		"pattern-lab/core": "0.*"
+		"pattern-lab/core": "dev-shila-drupal-theme"
 	},
 	"extra": {
 		"patternlab": {
